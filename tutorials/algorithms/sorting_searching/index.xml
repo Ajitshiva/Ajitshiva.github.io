@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kode Kaavalan</title>
+    <title>Sorting Searching on Kode Kaavalan</title>
     <link>https://ajitshiva.github.io/tutorials/algorithms/sorting_searching/index.html</link>
-    <description>Recent content on Kode Kaavalan</description>
+    <description>Recent content in Sorting Searching on Kode Kaavalan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="https://ajitshiva.github.io/tutorials/algorithms/sorting_searching/index.xml" rel="self" type="application/rss+xml" />

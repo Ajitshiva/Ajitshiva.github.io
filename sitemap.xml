@@ -37,6 +37,12 @@
     <loc>https://ajitshiva.github.io/tutorials/data_structures/index.html</loc>
   </url>
   <url>
+    <loc>https://ajitshiva.github.io/tutorials/algorithms/dynamic_programming/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/tutorials/algorithms/graph_theory/index.html</loc>
+  </url>
+  <url>
     <loc>https://ajitshiva.github.io/tutorials/data_structures/intermediate/index.html</loc>
   </url>
   <url>
@@ -49,7 +55,13 @@
     <loc>https://ajitshiva.github.io/leetcode/index.html</loc>
   </url>
   <url>
+    <loc>https://ajitshiva.github.io/tutorials/algorithms/mathematical/index.html</loc>
+  </url>
+  <url>
     <loc>https://ajitshiva.github.io/codeforces/rounds/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/tutorials/algorithms/sorting_searching/index.html</loc>
   </url>
   <url>
     <loc>https://ajitshiva.github.io/tags/index.html</loc>
