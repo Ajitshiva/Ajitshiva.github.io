@@ -1,11 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kodu Kaavalan</title>
+    <title>Kode Kaavalan</title>
     <link>https://ajitshiva.github.io/index.html</link>
-    <description>Recent content on Kodu Kaavalan</description>
+    <description>Recent content on Kode Kaavalan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="https://ajitshiva.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atcoder</title>
+      <link>https://ajitshiva.github.io/atcoder/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/atcoder/index.html</guid>
+      <description>Atcoder</description>
+    </item>
+    <item>
+      <title>Challenges</title>
+      <link>https://ajitshiva.github.io/challenges/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/challenges/index.html</guid>
+      <description>Challenges</description>
+    </item>
+    <item>
+      <title>CodeChef</title>
+      <link>https://ajitshiva.github.io/codechef/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/codechef/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CodeForces</title>
+      <link>https://ajitshiva.github.io/codeforces/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/codeforces/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interview Preparation</title>
+      <link>https://ajitshiva.github.io/interview_preparation/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/interview_preparation/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LeetCode</title>
+      <link>https://ajitshiva.github.io/leetcode/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/leetcode/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorials</title>
+      <link>https://ajitshiva.github.io/tutorials/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/tutorials/index.html</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

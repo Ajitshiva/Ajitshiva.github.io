@@ -1,12 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ajitshiva.github.io/atcoder/abc/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/tutorials/data_structures/advanced/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/interview_preparation/topic_wise/algorithms/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/tutorials/algorithms/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/atcoder/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/tutorials/data_structures/basic/index.html</loc>
+  </url>
+  <url>
     <loc>https://ajitshiva.github.io/categories/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/challenges/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/codechef/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/codeforces/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/interview_preparation/topic_wise/data_structures/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/tutorials/data_structures/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/tutorials/data_structures/intermediate/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/interview_preparation/index.html</loc>
   </url>
   <url>
     <loc>https://ajitshiva.github.io/index.html</loc>
   </url>
   <url>
+    <loc>https://ajitshiva.github.io/leetcode/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/codeforces/rounds/index.html</loc>
+  </url>
+  <url>
     <loc>https://ajitshiva.github.io/tags/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/interview_preparation/topic_wise/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/tutorials/index.html</loc>
   </url>
 </urlset>
