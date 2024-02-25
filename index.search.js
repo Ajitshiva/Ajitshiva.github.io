@@ -1,14 +1,14 @@
 var relearn_search_index = [
   {
-    "breadcrumb": "Data Structures And Algorithms",
-    "content": "print(\"ajit\")",
+    "breadcrumb": "",
+    "content": "print(\"ajit shiva\")",
     "description": "",
     "tags": null,
     "title": "Basics",
     "uri": "/basics/index.html"
   },
   {
-    "breadcrumb": "Data Structures And Algorithms",
+    "breadcrumb": "",
     "content": "",
     "description": "",
     "tags": null,
@@ -24,7 +24,7 @@ var relearn_search_index = [
     "uri": "/index.html"
   },
   {
-    "breadcrumb": "Data Structures And Algorithms",
+    "breadcrumb": "",
     "content": "",
     "description": "",
     "tags": null,
