@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Structures on Kode Kaavalan</title>
-    <link>https://ajitshiva.github.io/interview_preparation/topic_wise/data_structures/index.html</link>
+    <link>http://localhost:1313/interview_preparation/topic_wise/data_structures/</link>
     <description>Recent content in Data Structures on Kode Kaavalan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://ajitshiva.github.io/interview_preparation/topic_wise/data_structures/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/interview_preparation/topic_wise/data_structures/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

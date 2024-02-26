@@ -1,128 +1,73 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.123.3">
-    <meta name="generator" content="Relearn 5.24.2+tip">
-    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ajitshiva.github.io/challenges/monthly_challenge/index.html">
-    <meta property="og:site_name" content="Kode Kaavalan">
-    <title></title>
-    <link href="/images/logo.png?1708872394" rel="icon" type="image/png">
-    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1708872394" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1708872394" rel="stylesheet"></noscript>
-    <link href="/css/nucleus.css?1708872394" rel="stylesheet">
-    <link href="/css/auto-complete.css?1708872394" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1708872394" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1708872394" rel="stylesheet">
-    <link href="/css/fonts.css?1708872394" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1708872394" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1708872394" rel="stylesheet">
-    <link href="/css/theme-zen-dark.css?1708872394" rel="stylesheet" id="R-variant-style">
-    <link href="/css/chroma-relearn-dark.css?1708872394" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/css/variant.css?1708872394" rel="stylesheet">
-    <link href="/css/print.css?1708872394" rel="stylesheet" media="print">
-    <link href="/css/ie.css?1708872394" rel="stylesheet">
-    <script src="/js/url.js?1708872394"></script>
-    <script src="/js/variant.js?1708872394"></script>
-    <script>
-      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
-      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
-      window.index_js_url="/index.search.js";
-      var root_url="/";
-      var baseUri=root_url.replace(/\/$/, '');
-      window.relearn = window.relearn || {};
-      window.relearn.baseUriFull='https:\/\/ajitshiva.github.io/';
-      // variant stuff
-      window.relearn.themeVariantModifier='';
-      window.variants && variants.init( [ 'zen-dark', 'neon' ] );
-      // translations
-      window.T_Copy_to_clipboard = `Copy to clipboard`;
-      window.T_Copied_to_clipboard = `Copied to clipboard!`;
-      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
-      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
-      window.T_Reset_view = `Reset view`;
-      window.T_View_reset = `View reset!`;
-      window.T_No_results_found = `No results found for "{0}"`;
-      window.T_N_results_found = `{1} results found for "{0}"`;
-    </script>
-  </head>
-  <body class="mobile-support html" data-url="/challenges/monthly_challenge/index.html">
-    <div id="R-body" class="default-animation">
-      <div id="R-body-overlay"></div>
-      <nav id="R-topbar">
-        <div class="topbar-wrapper">
-          <div class="topbar-sidebar-divider"></div>
-          <div class="topbar-area topbar-area-start" data-area="start">
-            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
-            </div>
-            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper"> 
-                </div>
-              </div>
-            </div>
-          </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
-            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Kode Kaavalan</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
-            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/challenges/index.html"><span itemprop="name">Challenges</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li>
-          </ol>
-          <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/challenges/index.html" title="Challenges (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/codechef/index.html" title="CodeChef (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-                  <div class="topbar-area topbar-area-more" data-area="more">
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </nav>
-      <div id="R-main-overlay"></div>
-      <main id="R-body-inner" class="highlightable default" tabindex="-1">
-        <div class="flex-block-wrapper">
-          <article class="default">
-            <header class="headline">
-            </header>
-<h1 id=""></h1>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/challenges/monthly_challenge/" />
 
 
-            <footer class="footline">
-            </footer>
-          </article>
-
-
-<style>
-  .giscus, .giscus-frame {
-    width: 100%;
-    height: 0px;
-    min-height: 0px;
-}
-</style>
+    <title>
+        
+             :: Kode Kaavalan 
+        
+    </title>
 
 
 
-        </div>
-      </main>
-    </div>
-    <aside id="R-sidebar" class="default-animation">
-      <div id="R-header-topbar" class="default-animation"></div>
-      <div id="R-header-wrapper" class="default-animation">
-        <div id="R-header" class="default-animation">
-<a id="logo"
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css"> 
+
+
+
+
+<link rel="stylesheet" href="/main.805b1025016494ee5fd67b55b8ecd5e2b7c4a9f0bdda42e300c62b85ddfef68f.css">
+
+
+  
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="">
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content=""/>
+<meta name="twitter:description" content=""/>
+
+
+
+
+
+
+
+
+
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/challenges/monthly_challenge/index.xml" title="Kode Kaavalan" />
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a id="logo"
 style="
 color: white;
 font-family: 'Novacento Sans Wide', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
@@ -136,109 +81,116 @@ href="/">
 </a>
 
 
+
+        <span class="header__right">
+             
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    
+    
+    <main class="posts">
+        <h1></h1>
+
+        
+
+        
+    <div class="pagination">
+    <div class="pagination__buttons">
+        
+        
+    </div>
+</div>
+
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2024</span>
+            
+             
         </div>
-        <form action="/search.html" method="get"><div class="searchbox default-animation">
-          <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
-          <label class="a11y-only" for="R-search-by">Search</label>
-          <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
-          <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
-        </div></form>
-        <script>
-          var contentLangs=['en'];
-        </script>
-        <script src="/js/auto-complete.js?1708872394" defer></script>
-        <script src="/js/lunr/lunr.min.js?1708872394" defer></script>
-        <script src="/js/lunr/lunr.stemmer.support.min.js?1708872394" defer></script>
-        <script src="/js/lunr/lunr.multi.min.js?1708872394" defer></script>
-        <script src="/js/lunr/lunr.en.min.js?1708872394" defer></script>
-        <script src="/js/search.js?1708872394" defer></script>
-      </div>
-      <div id="R-homelinks" class="default-animation homelinks">
-        <ul>
-          <li><a class="padding" href="/index.html"><i class="fas fa-home"></i> Home</a></li>
-        </ul>
-        <hr class="padding">
-      </div>
-      <div id="R-content-wrapper" class="highlightable">
-        <div id="R-topics">
-          <ul class="enlarge morespace collapsible-menu">
-          <li data-nav-id="/atcoder/index.html" class=""><a class="padding" href="/atcoder/index.html">Atcoder</a><ul id="R-subsections-be90657986aea22c9fcaa766c467e396" class="morespace collapsible-menu">
-          <li data-nav-id="/atcoder/abc/index.html" class=""><a class="padding" href="/atcoder/abc/index.html">abc</a></li></ul></li>
-          <li data-nav-id="/challenges/index.html" class="parent "><a class="padding" href="/challenges/index.html">Challenges</a><ul id="R-subsections-19ef19d6b584466356079d42b9b108f5" class="morespace collapsible-menu">
-          <li data-nav-id="/challenges/monthly_challenge/index.html" class="active"><a class="padding" href="/challenges/monthly_challenge/index.html"></a></li></ul></li>
-          <li data-nav-id="/codechef/index.html" class=""><a class="padding" href="/codechef/index.html">CodeChef</a></li>
-          <li data-nav-id="/codeforces/index.html" class=""><a class="padding" href="/codeforces/index.html">CodeForces</a><ul id="R-subsections-583526e7a1e8d641cc19f1f1cfefdca4" class="morespace collapsible-menu">
-          <li data-nav-id="/codeforces/rounds/index.html" class=""><a class="padding" href="/codeforces/rounds/index.html">Rounds</a></li></ul></li>
-          <li data-nav-id="/interview_preparation/index.html" class=""><a class="padding" href="/interview_preparation/index.html">Interview Preparation</a><ul id="R-subsections-175ac29f2fd5973ac5e811ff480d3609" class="morespace collapsible-menu">
-          <li data-nav-id="/interview_preparation/topic_wise/index.html" class="alwaysopen"><a class="padding" href="/interview_preparation/topic_wise/index.html">Topic Wise</a><ul id="R-subsections-813879029fed7977070449af1b7774b9" class="morespace collapsible-menu">
-          <li data-nav-id="/interview_preparation/topic_wise/algorithms/index.html" class=""><a class="padding" href="/interview_preparation/topic_wise/algorithms/index.html">Algorithms</a></li>
-          <li data-nav-id="/interview_preparation/topic_wise/data_structures/index.html" class=""><a class="padding" href="/interview_preparation/topic_wise/data_structures/index.html">Data Structures</a></li></ul></li></ul></li>
-          <li data-nav-id="/leetcode/index.html" class=""><a class="padding" href="/leetcode/index.html">LeetCode</a></li>
-          <li data-nav-id="/tutorials/index.html" class=""><a class="padding" href="/tutorials/index.html">Tutorials</a><ul id="R-subsections-3ac49b4868ca27fd0182ba18f8675a7a" class="morespace collapsible-menu">
-          <li data-nav-id="/tutorials/algorithms/index.html" class="alwaysopen"><a class="padding" href="/tutorials/algorithms/index.html">Algorithms</a><ul id="R-subsections-d7bb01d8c2ad0611f2e593d17b14f988" class="morespace collapsible-menu">
-          <li data-nav-id="/tutorials/algorithms/dynamic_programming/index.html" class=""><a class="padding" href="/tutorials/algorithms/dynamic_programming/index.html">Dynamic Programming</a></li>
-          <li data-nav-id="/tutorials/algorithms/graph_theory/index.html" class=""><a class="padding" href="/tutorials/algorithms/graph_theory/index.html">Graph Theory</a></li>
-          <li data-nav-id="/tutorials/algorithms/mathematical/index.html" class=""><a class="padding" href="/tutorials/algorithms/mathematical/index.html">Mathematical</a></li>
-          <li data-nav-id="/tutorials/algorithms/sorting_searching/index.html" class=""><a class="padding" href="/tutorials/algorithms/sorting_searching/index.html">Sorting Searching</a></li></ul></li>
-          <li data-nav-id="/tutorials/data_structures/index.html" class="alwaysopen"><a class="padding" href="/tutorials/data_structures/index.html">Data Structures</a><ul id="R-subsections-6238f0b25f1c238a4c7a17569eab6995" class="morespace collapsible-menu">
-          <li data-nav-id="/tutorials/data_structures/advanced/index.html" class=""><a class="padding" href="/tutorials/data_structures/advanced/index.html">Advanced</a></li>
-          <li data-nav-id="/tutorials/data_structures/basic/index.html" class=""><a class="padding" href="/tutorials/data_structures/basic/index.html">Basic</a></li>
-          <li data-nav-id="/tutorials/data_structures/intermediate/index.html" class=""><a class="padding" href="/tutorials/data_structures/intermediate/index.html">Intermediate</a></li></ul></li></ul></li>
-          </ul>
+    </div> 
+</footer>
+<script type="text/javascript">
+    $(function(){
+
+  window.sr = ScrollReveal();
+
+  if ($(window).width() < 768) {
+
+    if ($('.timeline-content').hasClass('js--fadeInLeft')) {
+        $('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
+    }
+
+    sr.reveal('.js--fadeInRight', {
+        origin: 'right',
+        distance: '300px',
+        easing: 'ease-in-out',
+        duration: 800,
+      });
+
+  } else {
+    
+    sr.reveal('.js--fadeInLeft', {
+        origin: 'left',
+        distance: '300px',
+          easing: 'ease-in-out',
+        duration: 800,
+      });
+
+      sr.reveal('.js--fadeInRight', {
+        origin: 'right',
+        distance: '300px',
+        easing: 'ease-in-out',
+        duration: 800,
+      });
+
+  }
+  
+  sr.reveal('.js--fadeInLeft', {
+        origin: 'left',
+        distance: '300px',
+          easing: 'ease-in-out',
+        duration: 800,
+      });
+
+      sr.reveal('.js--fadeInRight', {
+        origin: 'right',
+        distance: '300px',
+        easing: 'ease-in-out',
+        duration: 800,
+      });
+
+
+});
+
+</script>
+            
         </div>
-        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
-        <div id="R-menu-footer">
-          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter">
-          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
-            <ul>
-              <li id="R-select-language-container" class="footerLangSwitch">
-                <div class="padding menu-control">
-                  <i class="fas fa-language fa-fw"></i>
-                  <span>&nbsp;</span>
-                  <div class="control-style">
-                    <label class="a11y-only" for="R-select-language">Language</label>
-                    <select id="R-select-language" onchange="location = baseUri + this.value;">
-                      <option id="R-en" value="/challenges/monthly_challenge/index.html" lang="en-us" selected></option>
-                    </select>
-                  </div>
-                  <div class="clear"></div>
-                </div>
-              </li>
-              <li id="R-select-variant-container" class="footerVariantSwitch showVariantSwitch">
-                <div class="padding menu-control">
-                  <i class="fas fa-paint-brush fa-fw"></i>
-                  <span>&nbsp;</span>
-                  <div class="control-style">
-                    <label class="a11y-only" for="R-select-variant">Theme</label>
-                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
-                      <option id="R-zen-dark" value="zen-dark" selected>Zen Dark</option>
-                      <option id="R-neon" value="neon">Neon</option>
-                    </select>
-                  </div>
-                  <div class="clear"></div>
-                </div>
-                <script>window.variants && variants.markSelectedVariant();</script>
-              </li>
-              <li class="footerVisitedLinks">
-                <div class="padding menu-control">
-                  <i class="fas fa-history fa-fw"></i>
-                  <span>&nbsp;</span>
-                  <div class="control-style">
-                    <button onclick="clearHistory();">Clear History</button>
-                  </div>
-                  <div class="clear"></div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div id="R-footer" class="footerFooter showFooter">
-	    <p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p>
-          </div>
-        </div>
-      </div>
-    </aside>
-    <script src="/js/clipboard.min.js?1708872394" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1708872394" defer></script>
-    <script src="/js/theme.js?1708872394" defer></script>
-  </body>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.26db4c0c4875d30c5b87dfe5d4e6dca835010a2e05640cb5c1bb9d17dd28dfd6ccb26f0ac0bf28ddffef647cdf7e6c284d2218821385b442df1d1034f3e49061.js" integrity="sha512-JttMDEh10wxbh9/l1ObcqDUBCi4FZAy1wbudF90o39bMsm8KwL8o3f/vZHzffmwoTSIYghOFtELfHRA08&#43;SQYQ=="></script>
+
+
+
+    </body>
 </html>

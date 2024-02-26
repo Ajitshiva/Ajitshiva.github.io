@@ -2,17 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Interview Preparation on Kode Kaavalan</title>
-    <link>https://ajitshiva.github.io/interview_preparation/index.html</link>
+    <link>http://localhost:1313/interview_preparation/</link>
     <description>Recent content in Interview Preparation on Kode Kaavalan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://ajitshiva.github.io/interview_preparation/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Topic Wise</title>
-      <link>https://ajitshiva.github.io/interview_preparation/topic_wise/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ajitshiva.github.io/interview_preparation/topic_wise/index.html</guid>
-      <description>Topic Wise</description>
-    </item>
+    <atom:link href="http://localhost:1313/interview_preparation/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

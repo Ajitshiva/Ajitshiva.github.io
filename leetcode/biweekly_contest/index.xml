@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kode Kaavalan</title>
-    <link>https://ajitshiva.github.io/leetcode/biweekly_contest/index.html</link>
+    <link>http://localhost:1313/leetcode/biweekly_contest/</link>
     <description>Recent content on Kode Kaavalan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://ajitshiva.github.io/leetcode/biweekly_contest/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/leetcode/biweekly_contest/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

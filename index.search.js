@@ -1,53 +1,5 @@
 var relearn_search_index = [
   {
-    "breadcrumb": "Kode Kaavalan \u003e Atcoder",
-    "content": "abc\n",
-    "description": "",
-    "tags": null,
-    "title": "abc",
-    "uri": "/atcoder/abc/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan \u003e Tutorials \u003e Data Structures",
-    "content": "\r{{ range $number := (seq 10) }}\r{{ $number }}\r{{ end }}\r",
-    "description": "",
-    "tags": null,
-    "title": "Advanced",
-    "uri": "/tutorials/data_structures/advanced/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan \u003e Interview Preparation \u003e Topic Wise",
-    "content": "Algorithms\n",
-    "description": "",
-    "tags": null,
-    "title": "Algorithms",
-    "uri": "/interview_preparation/topic_wise/algorithms/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan \u003e Tutorials",
-    "content": " Dynamic Programming Graph Theory Mathematical Sorting Searching ",
-    "description": "",
-    "tags": null,
-    "title": "Algorithms",
-    "uri": "/tutorials/algorithms/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan",
-    "content": "Atcoder\n",
-    "description": "",
-    "tags": null,
-    "title": "Atcoder",
-    "uri": "/atcoder/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan \u003e Tutorials \u003e Data Structures",
-    "content": "Basic\n",
-    "description": "",
-    "tags": null,
-    "title": "Basic",
-    "uri": "/tutorials/data_structures/basic/index.html"
-  },
-  {
     "breadcrumb": "Kode Kaavalan",
     "content": "",
     "description": "",
@@ -57,75 +9,19 @@ var relearn_search_index = [
   },
   {
     "breadcrumb": "Kode Kaavalan",
-    "content": "Challenges\n",
+    "content": "\rIdeas\rTemplates\rTricks\rLeft Aligned Center Aligned Right Aligned 1 Templates Click to view 2 Tricks Click to view 3 Ideas Click to view ",
     "description": "",
     "tags": null,
-    "title": "Challenges",
-    "uri": "/challenges/index.html"
+    "title": "Competitive Programming",
+    "uri": "/competitive-programming/index.html"
   },
   {
-    "breadcrumb": "Kode Kaavalan",
+    "breadcrumb": "Kode Kaavalan \u003e Competitive Programming",
     "content": "",
     "description": "",
     "tags": null,
-    "title": "CodeChef",
-    "uri": "/codechef/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan",
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "CodeForces",
-    "uri": "/codeforces/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan \u003e Interview Preparation \u003e Topic Wise",
-    "content": "Data Structures\n",
-    "description": "",
-    "tags": null,
-    "title": "Data Structures",
-    "uri": "/interview_preparation/topic_wise/data_structures/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan \u003e Tutorials",
-    "content": " Basic Intermediate Advanced ",
-    "description": "",
-    "tags": null,
-    "title": "Data Structures",
-    "uri": "/tutorials/data_structures/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan \u003e Tutorials \u003e Algorithms",
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Dynamic Programming",
-    "uri": "/tutorials/algorithms/dynamic_programming/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan \u003e Tutorials \u003e Algorithms",
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Graph Theory",
-    "uri": "/tutorials/algorithms/graph_theory/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan \u003e Tutorials \u003e Data Structures",
-    "content": "Intermediate\n",
-    "description": "",
-    "tags": null,
-    "title": "Intermediate",
-    "uri": "/tutorials/data_structures/intermediate/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan",
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Interview Preparation",
-    "uri": "/interview_preparation/index.html"
+    "title": "Ideas",
+    "uri": "/competitive-programming/ideas/index.html"
   },
   {
     "breadcrumb": "",
@@ -140,55 +36,31 @@ var relearn_search_index = [
     "content": "",
     "description": "",
     "tags": null,
-    "title": "LeetCode",
-    "uri": "/leetcode/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan \u003e Tutorials \u003e Algorithms",
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Mathematical",
-    "uri": "/tutorials/algorithms/mathematical/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan \u003e CodeForces",
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Rounds",
-    "uri": "/codeforces/rounds/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan \u003e Tutorials \u003e Algorithms",
-    "content": "",
-    "description": "",
-    "tags": null,
-    "title": "Sorting Searching",
-    "uri": "/tutorials/algorithms/sorting_searching/index.html"
-  },
-  {
-    "breadcrumb": "Kode Kaavalan",
-    "content": "",
-    "description": "",
-    "tags": null,
     "title": "Tags",
     "uri": "/tags/index.html"
   },
   {
-    "breadcrumb": "Kode Kaavalan \u003e Interview Preparation",
-    "content": "Topic Wise\n",
+    "breadcrumb": "Kode Kaavalan \u003e Competitive Programming",
+    "content": " No Title Link 1 Union-Find Click to view ",
     "description": "",
     "tags": null,
-    "title": "Topic Wise",
-    "uri": "/interview_preparation/topic_wise/index.html"
+    "title": "Templates",
+    "uri": "/competitive-programming/templates/index.html"
   },
   {
-    "breadcrumb": "Kode Kaavalan",
+    "breadcrumb": "Kode Kaavalan \u003e Competitive Programming",
     "content": "",
     "description": "",
     "tags": null,
-    "title": "Tutorials",
-    "uri": "/tutorials/index.html"
+    "title": "Tricks",
+    "uri": "/competitive-programming/tricks/index.html"
+  },
+  {
+    "breadcrumb": "Kode Kaavalan \u003e Competitive Programming \u003e Templates",
+    "content": "\r​\rPython\rJava\rC++\rclass UnionFind: def __init__(self, n: int): self.root = list(range(n)) self.rank = [1 for _ in range(n)] self.rank[0] = 10 ** 5 + 1 def find(self, x: int) -\u003e int: if self.root[x] != x: self.root[x] = self.find(self.root[x]) return self.root[x] def union(self, x: int, y: int) -\u003e None: rootx, rooty = self.root[x], self.root[y] if rootx == rooty: return if self.rank[rootx] \u003e self.rank[rooty]: self.root[rooty] = rootx elif self.rank[rootx] \u003c self.rank[rooty]: self.root[rootx] = rooty else: self.root[rooty] = rootx self.rank[rootx] += 1 def is_connected(self, x: int, y: int) -\u003e bool: return self.find(x) == self.find(y) def reset(self, x: int) -\u003e None: self.root[x] = x self.rank[x] = 1\recho \"Hello World!\"\rprintf\"Hello World!\");\r",
+    "description": "",
+    "tags": null,
+    "title": "Union Find",
+    "uri": "/competitive-programming/templates/unionfind/index.html"
   }
 ]

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Competitive Programming on Kode Kaavalan</title>
+    <link>https://ajitshiva.github.io/competitive-programming/index.html</link>
+    <description>Recent content in Competitive Programming on Kode Kaavalan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://ajitshiva.github.io/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ideas</title>
+      <link>https://ajitshiva.github.io/competitive-programming/ideas/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/ideas/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Templates</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/index.html</guid>
+      <description> No Title Link 1 Union-Find Click to view </description>
+    </item>
+    <item>
+      <title>Tricks</title>
+      <link>https://ajitshiva.github.io/competitive-programming/tricks/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/tricks/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

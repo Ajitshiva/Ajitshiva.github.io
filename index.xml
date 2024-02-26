@@ -8,53 +8,11 @@
     <language>en-us</language>
     <atom:link href="https://ajitshiva.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Atcoder</title>
-      <link>https://ajitshiva.github.io/atcoder/index.html</link>
+      <title>Competitive Programming</title>
+      <link>https://ajitshiva.github.io/competitive-programming/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ajitshiva.github.io/atcoder/index.html</guid>
-      <description>Atcoder</description>
-    </item>
-    <item>
-      <title>Challenges</title>
-      <link>https://ajitshiva.github.io/challenges/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ajitshiva.github.io/challenges/index.html</guid>
-      <description>Challenges</description>
-    </item>
-    <item>
-      <title>CodeChef</title>
-      <link>https://ajitshiva.github.io/codechef/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ajitshiva.github.io/codechef/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CodeForces</title>
-      <link>https://ajitshiva.github.io/codeforces/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ajitshiva.github.io/codeforces/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Interview Preparation</title>
-      <link>https://ajitshiva.github.io/interview_preparation/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ajitshiva.github.io/interview_preparation/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>LeetCode</title>
-      <link>https://ajitshiva.github.io/leetcode/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ajitshiva.github.io/leetcode/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tutorials</title>
-      <link>https://ajitshiva.github.io/tutorials/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ajitshiva.github.io/tutorials/index.html</guid>
-      <description></description>
+      <guid>https://ajitshiva.github.io/competitive-programming/index.html</guid>
+      <description>IdeasTemplatesTricksLeft Aligned Center Aligned Right Aligned 1 Templates Click to view 2 Tricks Click to view 3 Ideas Click to view </description>
     </item>
   </channel>
 </rss>
