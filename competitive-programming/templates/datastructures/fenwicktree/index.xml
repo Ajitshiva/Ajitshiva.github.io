@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fenwick Tree on Kode Kaavalan</title>
+    <link>https://ajitshiva.github.io/competitive-programming/templates/datastructures/fenwicktree/index.html</link>
+    <description>Recent content in Fenwick Tree on Kode Kaavalan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://ajitshiva.github.io/competitive-programming/templates/datastructures/fenwicktree/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Range Sum</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/datastructures/fenwicktree/rangesum/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/datastructures/fenwicktree/rangesum/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++class FenwickTree: def __init__(self, n): self.tree = [0] * (n + 1) def query(self, idx): sum_val = 0 while idx &amp;gt; 0: sum_val += self.tree[idx] idx -= idx &amp;amp; -idx return sum_val def update(self, idx, delta): while idx &amp;lt; len(self.tree): self.tree[idx] += delta idx += idx &amp;amp; -idx def lower_bound(self, val): pos = 0 bit_mask = 1 &amp;lt;&amp;lt; (len(self.tree) - 1) sum_val = 0 while bit_mask: if pos + bit_mask &amp;lt; len(self.</description>
+    </item>
+  </channel>
+</rss>

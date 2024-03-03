@@ -8,11 +8,18 @@
     <language>en-us</language>
     <atom:link href="https://ajitshiva.github.io/competitive-programming/templates/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Union Find</title>
-      <link>https://ajitshiva.github.io/competitive-programming/templates/unionfind/index.html</link>
+      <title>Algorithms</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/algorithms/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ajitshiva.github.io/competitive-programming/templates/unionfind/index.html</guid>
-      <description>&amp;#8203;PythonJavaC++class UnionFind: def __init__(self, n: int): self.root = list(range(n)) self.rank = [1 for _ in range(n)] self.rank[0] = 10 ** 5 + 1 def find(self, x: int) -&amp;gt; int: if self.root[x] != x: self.root[x] = self.find(self.root[x]) return self.root[x] def union(self, x: int, y: int) -&amp;gt; None: rootx, rooty = self.root[x], self.root[y] if rootx == rooty: return if self.rank[rootx] &amp;gt; self.rank[rooty]: self.root[rooty] = rootx elif self.rank[rootx] &amp;lt; self.</description>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/algorithms/index.html</guid>
+      <description> No Title Link 1 Graphs Click to view </description>
+    </item>
+    <item>
+      <title>Data Structures</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/datastructures/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/datastructures/index.html</guid>
+      <description> No Title Link 1 Trie Click to view 2 Segment Tree Click to view 3 Fenwick Tree Click to view </description>
     </item>
   </channel>
 </rss>

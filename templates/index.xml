@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Templates on Kode Kaavalan</title>
+    <link>http://localhost:1313/templates/index.html</link>
+    <description>Recent content in Templates on Kode Kaavalan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/templates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bellman-ford</title>
+      <link>http://localhost:1313/templates/bellmanford/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/templates/bellmanford/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++</description>
+    </item>
+    <item>
+      <title>Dijkstra</title>
+      <link>http://localhost:1313/templates/dijkstra/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/templates/dijkstra/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++</description>
+    </item>
+    <item>
+      <title>Fenwick Tree</title>
+      <link>http://localhost:1313/templates/fenwicktree/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/templates/fenwicktree/index.html</guid>
+      <description> No Title Link 1 Sum Click to view </description>
+    </item>
+    <item>
+      <title>Floyd-Warshall</title>
+      <link>http://localhost:1313/templates/floydwarshall/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/templates/floydwarshall/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++</description>
+    </item>
+    <item>
+      <title>Segment Tree</title>
+      <link>http://localhost:1313/templates/segmenttree/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/templates/segmenttree/index.html</guid>
+      <description> No Title Link 1 Sum Click to view </description>
+    </item>
+    <item>
+      <title>Trie</title>
+      <link>http://localhost:1313/templates/trie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/templates/trie/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++</description>
+    </item>
+    <item>
+      <title>Union Find</title>
+      <link>http://localhost:1313/templates/unionfind/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/templates/unionfind/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++</description>
+    </item>
+  </channel>
+</rss>

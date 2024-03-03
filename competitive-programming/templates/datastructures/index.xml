@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Structures on Kode Kaavalan</title>
+    <link>https://ajitshiva.github.io/competitive-programming/templates/datastructures/index.html</link>
+    <description>Recent content in Data Structures on Kode Kaavalan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://ajitshiva.github.io/competitive-programming/templates/datastructures/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fenwick Tree</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/datastructures/fenwicktree/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/datastructures/fenwicktree/index.html</guid>
+      <description> No Title Link 1 Range Sum Click to view </description>
+    </item>
+    <item>
+      <title>Segment Tree</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/datastructures/segmenttree/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/datastructures/segmenttree/index.html</guid>
+      <description> No Title Link 1 Range Sum Click to view 2 Range Second Maximum With Count Click to view </description>
+    </item>
+    <item>
+      <title>Trie</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/datastructures/trie/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/datastructures/trie/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++class TrieNode: def __init__(self): self.children = {} self.is_end_of_word = False class Trie: def __init__(self): self.root = TrieNode() def insert(self, word): node = self.root for char in word: if char not in node.children: node.children[char] = TrieNode() node = node.children[char] node.is_end_of_word = True def search(self, word): node = self.root for char in word: if char not in node.children: return False node = node.children[char] return node.is_end_of_word def starts_with(self, prefix): node = self.</description>
+    </item>
+  </channel>
+</rss>

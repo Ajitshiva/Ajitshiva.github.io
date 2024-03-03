@@ -1,16 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/algorithms/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/bellmanford/index.html</loc>
+  </url>
+  <url>
     <loc>https://ajitshiva.github.io/categories/index.html</loc>
   </url>
   <url>
     <loc>https://ajitshiva.github.io/competitive-programming/index.html</loc>
   </url>
   <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/datastructures/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/dijkstra/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/datastructures/fenwicktree/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/floydwarshall/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/index.html</loc>
+  </url>
+  <url>
     <loc>https://ajitshiva.github.io/competitive-programming/ideas/index.html</loc>
   </url>
   <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/algorithms/strings/kmp/index.html</loc>
+  </url>
+  <url>
     <loc>https://ajitshiva.github.io/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/datastructures/segmenttree/rangesecondmaxcount/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/datastructures/fenwicktree/rangesum/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/datastructures/segmenttree/rangesum/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/datastructures/segmenttree/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/algorithms/strings/index.html</loc>
   </url>
   <url>
     <loc>https://ajitshiva.github.io/tags/index.html</loc>
@@ -22,6 +61,9 @@
     <loc>https://ajitshiva.github.io/competitive-programming/tricks/index.html</loc>
   </url>
   <url>
-    <loc>https://ajitshiva.github.io/competitive-programming/templates/unionfind/index.html</loc>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/datastructures/trie/index.html</loc>
+  </url>
+  <url>
+    <loc>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/unionfind/index.html</loc>
   </url>
 </urlset>

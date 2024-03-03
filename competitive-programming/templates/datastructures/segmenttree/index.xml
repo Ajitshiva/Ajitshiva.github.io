@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Segment Tree on Kode Kaavalan</title>
+    <link>https://ajitshiva.github.io/competitive-programming/templates/datastructures/segmenttree/index.html</link>
+    <description>Recent content in Segment Tree on Kode Kaavalan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://ajitshiva.github.io/competitive-programming/templates/datastructures/segmenttree/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Range Second Maximum With Count</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/datastructures/segmenttree/rangesecondmaxcount/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/datastructures/segmenttree/rangesecondmaxcount/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++class Node: def __init__(self, max1=-1, cnt1=0, max2=-1, cnt2=0): self.max1 = max1 self.cnt1 = cnt1 self.max2 = max2 self.cnt2 = cnt2 class SegmentTree: def __init__(self, arr): self.arr = arr self.n = len(arr) self.t = [Node() for _ in range(4 * self.n)] self.build(1, 0, self.n - 1) def merge(self, left, right): vals = [ (left.max1, left.cnt1), (right.max1, right.cnt1), (left.max2, left.cnt2), (right.max2, right.cnt2) ] vals.sort(reverse=True) parent = Node(vals[0][0], vals[0][1]) for val, cnt in vals[1:]: if val == parent.</description>
+    </item>
+    <item>
+      <title>Range Sum</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/datastructures/segmenttree/rangesum/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/datastructures/segmenttree/rangesum/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++class Node: def __init__(self): self.sum = 0 self.lazy = 0 class SegmentTree: def __init__(self, nums): self.tree = [Node() for _ in range(4 * len(nums))] self.build_tree(nums, 0, 0, len(nums) - 1) def propagate(self, node, start, end): if self.tree[node].lazy != 0: self.tree[node].sum += (end - start + 1) * self.tree[node].lazy if start != end: self.tree[2 * node + 1].lazy += self.tree[node].lazy self.tree[2 * node + 2].lazy += self.</description>
+    </item>
+  </channel>
+</rss>

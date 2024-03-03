@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Strings on Kode Kaavalan</title>
+    <link>https://ajitshiva.github.io/competitive-programming/templates/algorithms/strings/index.html</link>
+    <description>Recent content in Strings on Kode Kaavalan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://ajitshiva.github.io/competitive-programming/templates/algorithms/strings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KMP</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/algorithms/strings/kmp/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/algorithms/strings/kmp/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++def compute_prefix(pattern): m = len(pattern) pi = [0] * m j = 0 for i in range(1, m): while j &amp;gt; 0 and pattern[i] != pattern[j]: j = pi[j - 1] if pattern[i] == pattern[j]: j += 1 pi[i] = j return pi def KMP(text, pattern): n, m = len(text), len(pattern) pi = compute_prefix(pattern) j = 0 for i in range(n): while j &amp;gt; 0 and text[i] !</description>
+    </item>
+  </channel>
+</rss>

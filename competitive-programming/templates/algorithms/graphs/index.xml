@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphs on Kode Kaavalan</title>
+    <link>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/index.html</link>
+    <description>Recent content in Graphs on Kode Kaavalan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bellman-ford</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/bellmanford/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/bellmanford/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++def bellman_ford(edges, num_vertices, source): distance = [float(&amp;#39;inf&amp;#39;)] * num_vertices distance[source] = 0 # Relax all edges |V| - 1 times for _ in range(num_vertices - 1): for u, v, weight in edges: if distance[u] != float(&amp;#39;inf&amp;#39;) and distance[u] + weight &amp;lt; distance[v]: distance[v] = distance[u] + weight # Check for negative-weight cycles for u, v, weight in edges: if distance[u] != float(&amp;#39;inf&amp;#39;) and distance[u] + weight &amp;lt; distance[v]: print(&amp;#34;Graph contains negative weight cycle!</description>
+    </item>
+    <item>
+      <title>Dijkstra</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/dijkstra/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/dijkstra/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++import heapq def dijkstra(graph, start): num_vertices = len(graph) distances = [float(&amp;#39;inf&amp;#39;)] * num_vertices distances[start] = 0 pq = [(0, start)] while pq: dist_u, u = heapq.heappop(pq) if dist_u &amp;gt; distances[u]: continue for v, weight in graph[u]: if distances[v] &amp;gt; dist_u + weight: distances[v] = dist_u + weight heapq.heappush(pq, (distances[v], v)) return distances if __name__ == &amp;#34;__main__&amp;#34;: num_vertices = 6 graph = [[] for _ in range(num_vertices)] # Example graph represented as an adjacency list graph[0].</description>
+    </item>
+    <item>
+      <title>Floyd-Warshall</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/floydwarshall/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/floydwarshall/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++def floyd_warshall_helper(graph): num_vertices = len(graph) # Initialize distances matrix with given graph distances = [row[:] for row in graph] # Apply Floyd-Warshall algorithm for k in range(num_vertices): for i in range(num_vertices): for j in range(num_vertices): if distances[i][k] != float(&amp;#39;inf&amp;#39;) and distances[k][j] != float(&amp;#39;inf&amp;#39;): distances[i][j] = min(distances[i][j], distances[i][k] + distances[k][j]) return distances # Example graph represented as an adjacency matrix graph = [[0, 5, float(&amp;#39;inf&amp;#39;), 10], [float(&amp;#39;inf&amp;#39;), 0, 3, float(&amp;#39;inf&amp;#39;)], [float(&amp;#39;inf&amp;#39;), float(&amp;#39;inf&amp;#39;), 0, 1], [float(&amp;#39;inf&amp;#39;), float(&amp;#39;inf&amp;#39;), float(&amp;#39;inf&amp;#39;), 0]] shortest_distances = floyd_warshall_helper(graph) # Use shortest_distances in other methods.</description>
+    </item>
+    <item>
+      <title>Union Find</title>
+      <link>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/unionfind/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ajitshiva.github.io/competitive-programming/templates/algorithms/graphs/unionfind/index.html</guid>
+      <description>&amp;#8203;PythonJavaC++class UnionFind: def __init__(self, n: int): self.parent = list(range(n)) self.rank = [1 for _ in range(n)] self.rank[0] = 10 ** 5 + 1 def find(self, x: int) -&amp;gt; int: if self.parent[x] != x: self.parent[x] = self.find(self.parent[x]) return self.parent[x] def union(self, x: int, y: int) -&amp;gt; None: parentX, parentY = self.parent[x], self.parent[y] if parentX == parentY: return if self.rank[parentX] &amp;gt; self.rank[parentY]: self.parent[parentY] = parentX elif self.rank[parentX] &amp;lt; self.</description>
+    </item>
+  </channel>
+</rss>

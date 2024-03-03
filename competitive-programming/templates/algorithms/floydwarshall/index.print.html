@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.123.3">
+    <meta name="generator" content="Relearn 5.24.2+tip">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Floyd-Warshall :: Kode Kaavalan">
+    <meta name="twitter:description" content="">
+    <meta property="og:title" content="Floyd-Warshall :: Kode Kaavalan">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost:1313/competitive-programming/templates/algorithms/floydwarshall/index.html">
+    <meta property="og:site_name" content="Kode Kaavalan">
+    <title>Floyd-Warshall :: Kode Kaavalan</title>
+    <link href="http://localhost:1313/competitive-programming/templates/algorithms/floydwarshall/index.html" rel="canonical" type="text/html" title="Floyd-Warshall :: Kode Kaavalan">
+    <link href="/competitive-programming/templates/algorithms/floydwarshall/index.xml" rel="alternate" type="application/rss+xml" title="Floyd-Warshall :: Kode Kaavalan">
+    <link href="/images/logo.png?1709477538" rel="icon" type="image/png">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1709477539" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1709477539" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1709477539" rel="stylesheet">
+    <link href="/css/auto-complete.css?1709477539" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1709477539" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1709477539" rel="stylesheet">
+    <link href="/css/fonts.css?1709477539" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1709477539" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1709477539" rel="stylesheet">
+    <link href="/css/theme-zen-dark.css?1709477539" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-dark.css?1709477539" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1709477539" rel="stylesheet">
+    <link href="/css/print.css?1709477539" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1709477539" rel="stylesheet">
+    <link href="/css/ie.css?1709477539" rel="stylesheet">
+    <script src="/js/url.js?1709477539"></script>
+    <script src="/js/variant.js?1709477539"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      window.relearn = window.relearn || {};
+      window.relearn.baseUriFull='http:\/\/localhost:1313/';
+      // variant stuff
+      window.relearn.themeVariantModifier='';
+      window.variants && variants.init( [ 'zen-dark', 'neon' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support print" data-url="/competitive-programming/templates/algorithms/floydwarshall/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Kode Kaavalan</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/competitive-programming/index.html"><span itemprop="name">Competitive Programming</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/competitive-programming/templates/index.html"><span itemprop="name">Templates</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/competitive-programming/templates/algorithms/index.html"><span itemprop="name">Algorithms</span></a><meta itemprop="position" content="4">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Floyd-Warshall</span><meta itemprop="position" content="5"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="floyd-warshall">Floyd-Warshall</h1>
+
+
+<div class="tab-panel" data-tab-group="042309ae7d9e1aca022b5aefad7c7f27">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="python"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('042309ae7d9e1aca022b5aefad7c7f27','python')"
+    >
+      <span class="tab-nav-text">Python</span>
+    </button>
+    <button
+      data-tab-item="java"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('042309ae7d9e1aca022b5aefad7c7f27','java')"
+    >
+      <span class="tab-nav-text">Java</span>
+    </button>
+    <button
+      data-tab-item="c"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('042309ae7d9e1aca022b5aefad7c7f27','c')"
+    >
+      <span class="tab-nav-text">C++</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="python"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">floyd_warshall_helper</span>(graph):
+</span></span><span style="display:flex;"><span>    num_vertices <span style="color:#f92672">=</span> len(graph)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Initialize distances matrix with given graph</span>
+</span></span><span style="display:flex;"><span>    distances <span style="color:#f92672">=</span> [row[:] <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> graph]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Apply Floyd-Warshall algorithm</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> k <span style="color:#f92672">in</span> range(num_vertices):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(num_vertices):
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(num_vertices):
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> distances[i][k] <span style="color:#f92672">!=</span> float(<span style="color:#e6db74">&#39;inf&#39;</span>) <span style="color:#f92672">and</span> distances[k][j] <span style="color:#f92672">!=</span> float(<span style="color:#e6db74">&#39;inf&#39;</span>):
+</span></span><span style="display:flex;"><span>                    distances[i][j] <span style="color:#f92672">=</span> min(distances[i][j], distances[i][k] <span style="color:#f92672">+</span> distances[k][j])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> distances
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example graph represented as an adjacency matrix</span>
+</span></span><span style="display:flex;"><span>graph <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">5</span>, float(<span style="color:#e6db74">&#39;inf&#39;</span>), <span style="color:#ae81ff">10</span>],
+</span></span><span style="display:flex;"><span>         [float(<span style="color:#e6db74">&#39;inf&#39;</span>), <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">3</span>, float(<span style="color:#e6db74">&#39;inf&#39;</span>)],
+</span></span><span style="display:flex;"><span>         [float(<span style="color:#e6db74">&#39;inf&#39;</span>), float(<span style="color:#e6db74">&#39;inf&#39;</span>), <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>],
+</span></span><span style="display:flex;"><span>         [float(<span style="color:#e6db74">&#39;inf&#39;</span>), float(<span style="color:#e6db74">&#39;inf&#39;</span>), float(<span style="color:#e6db74">&#39;inf&#39;</span>), <span style="color:#ae81ff">0</span>]]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>shortest_distances <span style="color:#f92672">=</span> floyd_warshall_helper(graph)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Use shortest_distances in other methods...</span></span></span></code></pre></div></div>
+    </div>
+    <div
+      data-tab-item="java"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.Arrays;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">FloydWarshallHelper</span> {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[][]</span> <span style="color:#a6e22e">floydWarshallHelper</span>(<span style="color:#66d9ef">int</span><span style="color:#f92672">[][]</span> graph) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> numVertices <span style="color:#f92672">=</span> graph.<span style="color:#a6e22e">length</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Initialize distances matrix with given graph</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span><span style="color:#f92672">[][]</span> distances <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[</span>numVertices<span style="color:#f92672">][</span>numVertices<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0; i <span style="color:#f92672">&lt;</span> numVertices; <span style="color:#f92672">++</span>i) {
+</span></span><span style="display:flex;"><span>            System.<span style="color:#a6e22e">arraycopy</span>(graph<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span>, 0, distances<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span>, 0, numVertices);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Apply Floyd-Warshall algorithm</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> 0; k <span style="color:#f92672">&lt;</span> numVertices; <span style="color:#f92672">++</span>k) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0; i <span style="color:#f92672">&lt;</span> numVertices; <span style="color:#f92672">++</span>i) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> 0; j <span style="color:#f92672">&lt;</span> numVertices; <span style="color:#f92672">++</span>j) {
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span> (distances<span style="color:#f92672">[</span>i<span style="color:#f92672">][</span>k<span style="color:#f92672">]</span> <span style="color:#f92672">!=</span> Integer.<span style="color:#a6e22e">MAX_VALUE</span> <span style="color:#f92672">&amp;&amp;</span> distances<span style="color:#f92672">[</span>k<span style="color:#f92672">][</span>j<span style="color:#f92672">]</span> <span style="color:#f92672">!=</span> Integer.<span style="color:#a6e22e">MAX_VALUE</span> <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>                            distances<span style="color:#f92672">[</span>i<span style="color:#f92672">][</span>k<span style="color:#f92672">]</span> <span style="color:#f92672">+</span> distances<span style="color:#f92672">[</span>k<span style="color:#f92672">][</span>j<span style="color:#f92672">]</span> <span style="color:#f92672">&lt;</span> distances<span style="color:#f92672">[</span>i<span style="color:#f92672">][</span>j<span style="color:#f92672">]</span>) {
+</span></span><span style="display:flex;"><span>                        distances<span style="color:#f92672">[</span>i<span style="color:#f92672">][</span>j<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> distances<span style="color:#f92672">[</span>i<span style="color:#f92672">][</span>k<span style="color:#f92672">]</span> <span style="color:#f92672">+</span> distances<span style="color:#f92672">[</span>k<span style="color:#f92672">][</span>j<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>                    }
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> distances;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span> numVertices <span style="color:#f92672">=</span> 4;
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Example graph represented as an adjacency matrix</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span><span style="color:#f92672">[][]</span> graph <span style="color:#f92672">=</span> {{0, 5, Integer.<span style="color:#a6e22e">MAX_VALUE</span>, 10},
+</span></span><span style="display:flex;"><span>                         {Integer.<span style="color:#a6e22e">MAX_VALUE</span>, 0, 3, Integer.<span style="color:#a6e22e">MAX_VALUE</span>},
+</span></span><span style="display:flex;"><span>                         {Integer.<span style="color:#a6e22e">MAX_VALUE</span>, Integer.<span style="color:#a6e22e">MAX_VALUE</span>, 0, 1},
+</span></span><span style="display:flex;"><span>                         {Integer.<span style="color:#a6e22e">MAX_VALUE</span>, Integer.<span style="color:#a6e22e">MAX_VALUE</span>, Integer.<span style="color:#a6e22e">MAX_VALUE</span>, 0}};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">int</span><span style="color:#f92672">[][]</span> shortestDistances <span style="color:#f92672">=</span> floydWarshallHelper(graph);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Use shortestDistances in other methods...</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div></div>
+    </div>
+    <div
+      data-tab-item="c"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+
+<div class="wrap-code highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;vector&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;limits&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> floydWarshallHelper(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> graph) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> numVertices <span style="color:#f92672">=</span> graph.size();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Initialize distances matrix with given graph
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> distances <span style="color:#f92672">=</span> graph;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Apply Floyd-Warshall algorithm
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; k <span style="color:#f92672">&lt;</span> numVertices; <span style="color:#f92672">++</span>k) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> numVertices; <span style="color:#f92672">++</span>i) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> numVertices; <span style="color:#f92672">++</span>j) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (distances[i][k] <span style="color:#f92672">!=</span> INT_MAX <span style="color:#f92672">&amp;&amp;</span> distances[k][j] <span style="color:#f92672">!=</span> INT_MAX <span style="color:#f92672">&amp;&amp;</span>
+</span></span><span style="display:flex;"><span>                    distances[i][k] <span style="color:#f92672">+</span> distances[k][j] <span style="color:#f92672">&lt;</span> distances[i][j]) {
+</span></span><span style="display:flex;"><span>                    distances[i][j] <span style="color:#f92672">=</span> distances[i][k] <span style="color:#f92672">+</span> distances[k][j];
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> distances;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> numVertices <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Example graph represented as an adjacency matrix
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> graph <span style="color:#f92672">=</span> {{<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">5</span>, INT_MAX, <span style="color:#ae81ff">10</span>},
+</span></span><span style="display:flex;"><span>                                 {INT_MAX, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">3</span>, INT_MAX},
+</span></span><span style="display:flex;"><span>                                 {INT_MAX, INT_MAX, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>},
+</span></span><span style="display:flex;"><span>                                 {INT_MAX, INT_MAX, INT_MAX, <span style="color:#ae81ff">0</span>}};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> shortestDistances <span style="color:#f92672">=</span> floydWarshallHelper(graph);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Use shortestDistances in other methods...
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div></div>
+    </div>
+  </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+
+
+<style>
+  .giscus, .giscus-frame {
+    width: 100%;
+    height: 0px;
+    min-height: 0px;
+}
+</style>
+
+
+
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1709477539" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1709477539" defer></script>
+    <script src="/js/theme.js?1709477539" defer></script>
+  </body>
+</html>
